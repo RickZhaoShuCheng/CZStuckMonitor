@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EF09D34246A8922006B62BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF09D33246A8922006B62BC /* AppDelegate.m */; };
+		1EF09D3F246A8925006B62BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF09D3E246A8925006B62BC /* Assets.xcassets */; };
+		1EF09D42246A8925006B62BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF09D40246A8925006B62BC /* LaunchScreen.storyboard */; };
+		1EF09D45246A8925006B62BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF09D44246A8925006B62BC /* main.m */; };
+		1EF09D4D246A898B006B62BC /* CZRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF09D4C246A898B006B62BC /* CZRootViewController.m */; };
+		1EF09D51246A89B6006B62BC /* CZStuckMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF09D50246A89B6006B62BC /* CZStuckMonitor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EF09D2F246A8922006B62BC /* CZStuckMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZStuckMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF09D32246A8922006B62BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1EF09D33246A8922006B62BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1EF09D3E246A8925006B62BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EF09D41246A8925006B62BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EF09D43246A8925006B62BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EF09D44246A8925006B62BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EF09D4B246A898B006B62BC /* CZRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZRootViewController.h; sourceTree = "<group>"; };
+		1EF09D4C246A898B006B62BC /* CZRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZRootViewController.m; sourceTree = "<group>"; };
+		1EF09D4F246A89B6006B62BC /* CZStuckMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZStuckMonitor.h; sourceTree = "<group>"; };
+		1EF09D50246A89B6006B62BC /* CZStuckMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZStuckMonitor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EF09D2C246A8922006B62BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EF09D26246A8922006B62BC = {
+			isa = PBXGroup;
+			children = (
+				1EF09D31246A8922006B62BC /* CZStuckMonitor */,
+				1EF09D30246A8922006B62BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EF09D30246A8922006B62BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EF09D2F246A8922006B62BC /* CZStuckMonitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EF09D31246A8922006B62BC /* CZStuckMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				1EF09D4E246A8999006B62BC /* SDK */,
+				1EF09D32246A8922006B62BC /* AppDelegate.h */,
+				1EF09D33246A8922006B62BC /* AppDelegate.m */,
+				1EF09D3E246A8925006B62BC /* Assets.xcassets */,
+				1EF09D40246A8925006B62BC /* LaunchScreen.storyboard */,
+				1EF09D43246A8925006B62BC /* Info.plist */,
+				1EF09D44246A8925006B62BC /* main.m */,
+				1EF09D4B246A898B006B62BC /* CZRootViewController.h */,
+				1EF09D4C246A898B006B62BC /* CZRootViewController.m */,
+			);
+			path = CZStuckMonitor;
+			sourceTree = "<group>";
+		};
+		1EF09D4E246A8999006B62BC /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				1EF09D4F246A89B6006B62BC /* CZStuckMonitor.h */,
+				1EF09D50246A89B6006B62BC /* CZStuckMonitor.m */,
+			);
+			path = SDK;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EF09D2E246A8922006B62BC /* CZStuckMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EF09D48246A8925006B62BC /* Build configuration list for PBXNativeTarget "CZStuckMonitor" */;
+			buildPhases = (
+				1EF09D2B246A8922006B62BC /* Sources */,
+				1EF09D2C246A8922006B62BC /* Frameworks */,
+				1EF09D2D246A8922006B62BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CZStuckMonitor;
+			productName = CZStuckMonitor;
+			productReference = 1EF09D2F246A8922006B62BC /* CZStuckMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EF09D27246A8922006B62BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "赵曙诚";
+				TargetAttributes = {
+					1EF09D2E246A8922006B62BC = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1EF09D2A246A8922006B62BC /* Build configuration list for PBXProject "CZStuckMonitor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EF09D26246A8922006B62BC;
+			productRefGroup = 1EF09D30246A8922006B62BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EF09D2E246A8922006B62BC /* CZStuckMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EF09D2D246A8922006B62BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF09D42246A8925006B62BC /* LaunchScreen.storyboard in Resources */,
+				1EF09D3F246A8925006B62BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EF09D2B246A8922006B62BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF09D34246A8922006B62BC /* AppDelegate.m in Sources */,
+				1EF09D45246A8925006B62BC /* main.m in Sources */,
+				1EF09D51246A89B6006B62BC /* CZStuckMonitor.m in Sources */,
+				1EF09D4D246A898B006B62BC /* CZRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1EF09D40246A8925006B62BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EF09D41246A8925006B62BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EF09D46246A8925006B62BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1EF09D47246A8925006B62BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EF09D49246A8925006B62BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CZStuckMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsc.CZStuckMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EF09D4A246A8925006B62BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CZStuckMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsc.CZStuckMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EF09D2A246A8922006B62BC /* Build configuration list for PBXProject "CZStuckMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF09D46246A8925006B62BC /* Debug */,
+				1EF09D47246A8925006B62BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EF09D48246A8925006B62BC /* Build configuration list for PBXNativeTarget "CZStuckMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF09D49246A8925006B62BC /* Debug */,
+				1EF09D4A246A8925006B62BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EF09D27246A8922006B62BC /* Project object */;
+}
